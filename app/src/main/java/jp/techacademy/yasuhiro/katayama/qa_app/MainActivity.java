@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private int mGenre = 0;
 
-    // --- ここから ---
     private DatabaseReference mDatabaseReference;
     private DatabaseReference mGenreRef;
     private ListView mListView;
@@ -119,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
     };
-    // --- ここまで追加する ---
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
